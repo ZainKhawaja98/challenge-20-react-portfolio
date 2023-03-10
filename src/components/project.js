@@ -1,5 +1,6 @@
 import React from "react";
 import codingquiz from '../images/coding-quiz.png'
+import comicbook from '../images/comic-book.png'
 import datenite from '../images/date-nite.png'
 import notetaker from '../images/note-taker.png'
 import passwordgenerator from '../images/password-generator.png'
@@ -13,6 +14,12 @@ function Project() {
         imageUrl: codingquiz,
         app: "https://github.com/ZainKhawaja98/challenge-4-javascript-quiz",
         github: "https://zainkhawaja98.github.io/challenge-4-javascript-quiz/",
+      },
+      {
+        title: "comic book",
+        imageUrl: comicbook,
+        app: "https://warm-bastion-22220.herokuapp.com/",
+        github: "https://github.com/codingColinMcM/Comic-Book-E-Commerce",
       },
       {
         title: "date nite",
